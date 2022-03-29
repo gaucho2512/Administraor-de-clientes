@@ -1,0 +1,158 @@
+.contenedor-left {
+  display: flex;
+  background: rgb(9, 50, 104);
+  flex-direction: column;
+  padding: 20px;
+}
+
+.box-left h1 {
+  font-size: 24px;
+  color: #fff;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.contenedor-right {
+  display: flex;
+  background: #f1f1f1;
+  flex-direction: column;
+  padding: 20px;
+  height: 100vh;
+  overflow-y: scroll;
+}
+
+.link-clientes {
+  display: flex;
+  flex-direction: column;
+  padding: 0 30px;
+}
+
+.link-link {
+  font-size: 18px;
+  color: #fff;
+  font-weight: 400;
+  text-decoration: none;
+  padding: 10px 0;
+}
+
+.link-link:hover {
+  color: rgb(120, 186, 240);
+}
+
+.active {
+  font-weight: 700;
+  font-size: 19px;
+  text-decoration: none;
+}
+
+.nuevo-cliente {
+  font-size: 24px;
+  color: rgb(9, 50, 104);
+  font-weight: 600;
+  margin-left: 30px;
+}
+
+.llenar-los-campos {
+  font-size: 18px;
+  font-weight: 400;
+  color: rgb(9, 50, 104);
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+
+.contenedor-formulario {
+  margin-left: 30px;
+}
+
+.conteneiner-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+  background: #fff;
+  padding: 25px 0;
+  border-radius: 5px;
+  box-shadow: 2px 2px 10px 3px rgba(90, 90, 90, 0.2);
+  flex-direction: column;
+}
+
+.conteneiner-form h1 {
+  font-size: 16px;
+  font-weight: 700;
+  color: rgb(9, 50, 104);
+}
+
+.field-form {
+  width: 100%;
+  background: rgb(240, 240, 240);
+  padding: 5px 10px;
+  border: none;
+  outline: rgb(235, 235, 235);
+  margin-bottom: 10px;
+}
+
+.label-form {
+  font-size: 14px;
+  font-weight: 700;
+  color: #505050;
+}
+
+.form-principal {
+  display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 15px;
+}
+
+.textarea-form {
+  height: 150px;
+}
+
+.submit-form {
+
+}
+
+.error-form {
+  color: #fff;
+  font-weight: 700;
+  font-size: 12px;
+  background: rgb(206, 9, 9);
+  text-align: center;
+  padding: 2px;
+  text-transform: uppercase;
+}
+
+.table-table {
+  width: 90%;
+}
+
+.contenedor-ver-clientes {
+  padding: 30px;
+  background: rgb(250, 250, 250);
+  margin: 30px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px 3px rgba(90, 90, 90, 0.2);
+
+}
+
+.parrafo-ver-cliente {
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
+}
+
+.span-ver-cliente {
+  font-size: 16px;
+  font-weight: 700;
+  color: rgb(51, 51, 51);
+  margin-right: 10px;
+}
+
+.sin-resultado {
+  padding: 30px;
+  font-size: 26px;
+  font-weight: 700;
+  color: rgb(177, 50, 50);
+}

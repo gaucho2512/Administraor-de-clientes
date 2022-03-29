@@ -1,0 +1,61 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "clientes": [
+    {
+      "nombre": "pepe",
+      "empresa": "34759751454355453",
+      "email": "pepe@hotmail.com",
+      "telefono": "34533543543543535",
+      "notas": "peeeeeeeeeeeeeeeeeeeee",
+      "id": 6
+    },
+    {
+      "nombre": "jorge",
+      "empresa": "rerre",
+      "email": "pepe@pepe.com",
+      "telefono": "2331312",
+      "notas": "12331231231221wfdsfdsfdsfddf",
+      "id": 7
+    },
+    {
+      "nombre": "jorge",
+      "empresa": "rerre",
+      "email": "pepe@pepe.com",
+      "telefono": "2331312",
+      "notas": "12331231231221wfdsfdsfdsfddf",
+      "id": 8
+    },
+    {
+      "nombre": "pepito",
+      "empresa": "ffsf",
+      "email": "elpepe@jkj.com",
+      "telefono": "42342",
+      "notas": "4234324234",
+      "id": 9
+    },
+    {
+      "nombre": "kokii",
+      "empresa": "Rompecabeza digital",
+      "email": "ko@ko.com",
+      "telefono": "234324243424",
+      "notas": "koki puto",
+      "id": 10
+    }
+  ]
+}
